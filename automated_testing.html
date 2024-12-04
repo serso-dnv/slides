@@ -20,33 +20,60 @@
         </section>
         <section>
           <section>
-            <h2>The Web Application</h2>
+            <h1>A quick reminder</h1>
+          </section>
+          <section>
+            <h1>Unit tests</h1>
             <ul>
+              <li>Testing tiny pieces of code, one function at a time</li>
               <li>
-                <strong>Web-client (Frontend):</strong> React (VUI, TanStack
-                Query, TanStack Router). Interacts with users to collect and
-                display data.
+                Think of unit tests like checking each ingredient before baking
+                a cake
               </li>
-              <li>
-                <strong>Web-server (Backend):</strong> Node/Express.js.
-                Processes requests, business logic, and database interactions.
-              </li>
-              <li>
-                <strong>TurboRepo: </strong>A build system for JavaScript and
-                TypeScript monorepos, designed to optimize builds by caching and
-                reusing packages, enabling faster development.
-              </li>
+              <li>Super quick to run</li>
+              <li>Helps catch small problems early</li>
+              <li>Written by developers while building software</li>
             </ul>
           </section>
-          <section data-background-color="hsl(223, 67%, 95%)">
-            <h3>Links</h3>
+          <section>
+            <h1>End-to-End (E2E) Tests</h1>
             <ul>
-              <li><strong>React:</strong> TBD</li>
-              <li><strong>VUI:</strong> TBD</li>
-              <li><strong>TanStack Query:</strong> TBD</li>
-              <li><strong>TanStack Router:</strong> TBD</li>
-              <li><strong>Express.js:</strong> TBD</li>
+              <li>Tests the whole application as a user would use it</li>
+              <li>
+                Like walking through the entire cake-making process from start
+                to finish
+              </li>
+              <li>Checks if everything works together smoothly</li>
+              <li>Simulates real user actions from beginning to end</li>
+              <li>Slower and more complex than unit tests</li>
             </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>The web application</h2>
+            <p>
+              Built using a <a href="https://www.typescriptlang.org/docs/" target="_blank">Typescript</a> stack, combining
+              a React-based frontend with a Node.js and Express backend.
+            </p>
+            <p>
+              <a href="https://turbo.build/repo/docs" target="_blank">Turborepo</a> helps manage the project, making development faster and
+              more efficient by optimizing build processes and code sharing.
+            </p>
+          </section>
+          <section>
+            <h2>Web-client (Frontend)</h2>
+            <p>Interacts with users to collect and display data.</p>
+            <p>
+              React: <a href="https://ui.veracity.com/" target="_blank">VUI</a>, <a href="https://tanstack.com/query/v4/docs/framework/react/guides/queries" target="_blank">TanStack Query</a>, <a href="https://tanstack.com/query/v4/docs/framework/react/guides/queries " target="_blank">TanStack Router</a>.
+            </p>
+          </section>
+          <section>
+            <h2>Web-server (Backend)</h2>
+            <p>
+              Node/Express.js. Processes requests, business logic, and database
+              interactions.
+            </p>
           </section>
         </section>
         <section>
@@ -61,14 +88,11 @@
           <section>
             <h2>Unit Testing</h2>
             <ul>
-              <li><strong>Vitest:</strong> For frontend components.</li>
+              <li><strong><a href="https://vitest.dev/guide/" target="_blank">Vitest</a>:</strong> For frontend components, hooks and utilities.</li>
               <li>
-                <strong>Jest:</strong> For backend controllers and utilities.
+                <strong><a href="https://jestjs.io/docs/getting-started" target="_blank">Jest</a>:</strong> For backend controllers and utilities.
               </li>
             </ul>
-          </section>
-          <section data-background-color="hsl(223, 67%, 95%)">
-            <p>TBD: Add links</p>
           </section>
         </section>
         <section data-background-color="hsl(139, 100%, 78%)">
@@ -78,27 +102,39 @@
               Web-client (Frontend): Testing a React component with Vitest.
             </li>
             <li>Web-server (Backend): Validating a function with Jest.</li>
+            <li><strong>npm test</strong></li>
           </ul>
         </section>
         <section>
-          <h2>End-to-End Testing</h2>
+          <h2>E2E Testing</h2>
           <ul>
-            <li>Ensures user flows are intact.</li>
-            <li>Tests across multiple browsers.</li>
+              <li><a href="https://playwright.dev/docs/intro" target="_blank" rel="noopener noreferrer">Microsoft Playwright</a></li>
+              <li>Validates user journeys, ensuring seamless application functionality.</li>
+              <li>Intercepting API calls</li>
+              <li>Simulating user interactions</li>
+              <li>Running tests in headless mode</li>
           </ul>
-        </section>
+      </section>
         <section data-background-color="hsl(139, 100%, 78%)">
           <h2>Demo: End-to-End Tests</h2>
+          <p<strong>npm run test:e2e:ci</strong></p>
+        </section>
+        <section data-background-color="hsl(139, 100%, 78%)">
+          <h2>DEMO: Integration with CI/CD Pipelines</h2>
         </section>
         <section>
-          <h2>Challenges in Automated Testing</h2>
+         <section>
+          <h1>Conclusion</h1>
+         </section>
+         <section>
+          <h2>Challenges</h2>
           <ul>
             <li>Initial setup complexity.</li>
             <li>Maintaining test relevance.</li>
           </ul>
         </section>
         <section>
-          <h2>Benefits of Automated Testing</h2>
+          <h2>Benefits</h2>
           <ul>
             <li>Faster development cycles.</li>
             <li>Increased stability and reliability.</li>
@@ -106,24 +142,9 @@
           </ul>
         </section>
         <section>
-          <h2>Integration with CI/CD Pipelines</h2>
-          <p>TBD</p>
-        </section>
-        <section>
-          <h2>Conclusion</h2>
-          <p>
-            <strong
-              >Automated testing is key to reliable web applications.</strong
-            >
-          </p>
-          <p>
-            Tools like Vitest, Jest, and Playwright make it practical and
-            effective.
-          </p>
-        </section>
-        <section>
           <h3>Questions</h3>
           <p>Thank you and welcome to reach me in Teams!</p>
+          <p>🤗</p>
         </section>
       </div>
     </div>
